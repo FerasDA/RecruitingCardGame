@@ -11,7 +11,7 @@ export class QuestionsComponent implements OnInit {
 
   constructor(private genratedCards: GeneratedCards) { }
 
-  cards = getGeneratedCards();
+  // cards = getGeneratedCards();
   ngOnInit() {
   }
 

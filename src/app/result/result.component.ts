@@ -11,7 +11,7 @@ export class ResultComponent implements OnInit {
 
   constructor(private cardsService: CardsService) { }
 
-  cards = this.cardsService.getCards();
+  // cards = this.cardsService.getCards();
 
   ngOnInit() {
   }
