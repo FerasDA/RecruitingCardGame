@@ -1,7 +1,26 @@
-<div class="container">
-  <h1>
-    Recruiting Card Game
-  </h1>
+<div id="sidebar-black" class="sidebar-nav">
+  <nav id="navbar-black" class="navbar navbar-default" role="navigation">
+  
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="visible-xs"><a class="navbar-brand" href="/">Rules</a></span>
+    </div>
+    
+    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+    
+      <ul class="nav navbar-nav">
+        <li class="hidden-xs"><a class="navbar-brand" href="/">Rules</a></li>
+      </ul>
+      <app-rules></app-rules>
+    </div><!--/.nav-collapse -->
+  </nav><!--/.navbar -->
+</div><!--/.sidebar-nav --> 
+<main id="page-wrapper2">  
   <app-result></app-result>
-</div>
+</main>
 <app-questions></app-questions>
