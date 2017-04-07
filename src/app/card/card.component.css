@@ -1,0 +1,17 @@
+.example-header-image {
+  background-image: url('http://placehold.it/150x150');
+  background-size: cover;
+}
+
+.card {
+    display: inline-block;
+    width: 10%;
+    margin: 20px;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+.center-guess {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
