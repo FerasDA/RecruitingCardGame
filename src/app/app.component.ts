@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   tiles = [
-    {text: 'score', cols: 1, rows: 8, color: 'lightblue'},
-    {text: 'card', cols: 3, rows: 3, color: 'lightgreen'},
-    {text: 'console', cols: 3, rows: 3, color: 'lightpink'},
-    {text: 'question', cols: 3, rows: 2, color: '#DDBDF1'},
+    {text: 'score', cols: 3, rows: 8, color: 'lightblue'},
+    {text: 'card', cols: 9, rows: 4, color: 'lightgreen'},
+    {text: 'console', cols: 9, rows: 3, color: 'lightpink'},
+    {text: 'question', cols: 9, rows: 1, color: '#DDBDF1'},
   ];
 }
