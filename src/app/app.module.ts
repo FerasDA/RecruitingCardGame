@@ -6,10 +6,18 @@ import { MaterialModule } from '@angular/material';
 import 'hammerjs';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
+import { ScoreComponent } from './score/score.component';
+import { CardComponent } from './card/card.component';
+import { ConsoleComponent } from './console/console.component';
+import { QuestionComponent } from './question/question.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ScoreComponent,
+    CardComponent,
+    ConsoleComponent,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,

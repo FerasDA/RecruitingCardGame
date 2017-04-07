@@ -1,9 +1,26 @@
 <md-grid-list cols="12" rowHeight="78px">
   <md-grid-tile
-      *ngFor="let tile of tiles"
-      [colspan]="tile.cols"
-      [rowspan]="tile.rows"
-      [style.background]="tile.color">
-    {{tile.text}}
+    [colspan]="3"
+    [rowspan]="8"
+    [style.background]="'lightblue'">
+    <app-score></app-score>
+  </md-grid-tile>
+  <md-grid-tile
+    [colspan]="9"
+    [rowspan]="4"
+    [style.background]="'lightgreen'">
+    <app-card></app-card>
+  </md-grid-tile>
+  <md-grid-tile
+    [colspan]="9"
+    [rowspan]="3"
+    [style.background]="'lightpink'">
+    <app-console></app-console>
+  </md-grid-tile>
+  <md-grid-tile
+    [colspan]="9"
+    [rowspan]="1"
+    [style.background]="'#DDBDF1'">
+    <app-question></app-question>
   </md-grid-tile>
 </md-grid-list>
