@@ -1,10 +1,10 @@
-import { RecruitingCardGamePage } from './app.po';
+import { RecPage } from './app.po';
 
-describe('recruiting-card-game App', () => {
-  let page: RecruitingCardGamePage;
+describe('rec App', () => {
+  let page: RecPage;
 
   beforeEach(() => {
-    page = new RecruitingCardGamePage();
+    page = new RecPage();
   });
 
   it('should display message saying app works', () => {
