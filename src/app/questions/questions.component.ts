@@ -32,10 +32,6 @@ export class QuestionsComponent implements OnInit {
 
   }
 
-<<<<<<< HEAD
-  // cards = getGeneratedCards();
-=======
->>>>>>> 2a6c96bd64f8084c5dc2e20b9d5df104c62fea36
   ngOnInit() {
     this.questionService.getCardsOrSumQuestions().then(x => this.cardsOrSumDropDown = x);
     this.questionService.getHowManyOrWhatQuestions().then(x => this.howManyDropDown = x);
