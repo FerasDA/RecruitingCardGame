@@ -8,7 +8,9 @@ import { ResultComponent } from './result/result.component';
 import { ConsoleLogComponent } from './console-log/console-log.component';
 import { RulesComponent } from './rules/rules.component';
 import { QuestionsComponent } from './questions/questions.component';
-
+import { CardsService } from './services/cards.service';
+import { PipeModule } from './pipes/pipeModule';
+import { CompareService } from './services/compare.service'
 
 @NgModule({
   declarations: [
@@ -22,9 +24,10 @@ import { QuestionsComponent } from './questions/questions.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AlertModule.forRoot()
+    AlertModule.forRoot(), 
+    PipeModule.forRoot()
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [ CardsService, CompareService ],
+  bootstrap: [ AppComponent ]
 })
 export class AppModule { }
