@@ -1,44 +1,46 @@
-
 <div class="container">
-  <div class="row">
-    <div class="col-md-3">
-      <div class="sidebar-nav-fixed affix">
-        <div class="well">
-          <ul class="nav ">
-            <li class="nav-header">Sidebar</li>
-            <li class="active"><a href="#">Link</a>
-            </li>
+  <div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="sidebar-nav-fixed" style="position: fixed; left: 0px;">
+          <div class="well">
+            <ul class="nav ">
+              <li class="nav-header">Sidebar</li>
+              <li class="active"><a href="#">Link</a>
+              </li>
 
-          </ul>
+            </ul>
+          </div>
+          <!--/.well -->
         </div>
-        <!--/.well -->
+        <!--/sidebar-nav-fixed -->
       </div>
-      <!--/sidebar-nav-fixed -->
-    </div>
-    <!--/span-->
-    <div class="col-md-6">
-      <div class="jumbotron">
-        <h1>
-          Recruiting Card Game
-        </h1>
-        <app-result></app-result>
-      </div>
+      <!--/span-->
+      <div class="col-md-6">
+        <div class="centered text-center">
+          <h1>
+            Recruiting Card Game
+          </h1>
+          <app-result></app-result>
+        </div>
 
-    </div>
-    <!--/span-->
-    <div class="col-md-3">
-      <div class="sidebar-nav-fixed pull-right affix">
-        <app-rules></app-rules>
-        <!--/.well -->
       </div>
-      <!--/sidebar-nav-fixed -->
+      <!--/span-->
+      <div class="col-md-3">
+        <div class="sidebar-nav-fixed" style="position: fixed; right: 0px;">
+          <app-rules></app-rules>
+          <!--/.well -->
+        </div>
+        <!--/sidebar-nav-fixed -->
+      </div>
+      <!--/span-->
     </div>
-    <!--/span-->
+    <!--/row-->
+
+    <footer>
+      <app-console-log class='footer'></app-console-log>
+      <app-questions class='footer'></app-questions>
+    </footer>
   </div>
-  <!--/row-->
-
-  <footer>
-    <app-questions class='footer'></app-questions>
-  </footer>
 </div>
 <!--/.fluid-container-->

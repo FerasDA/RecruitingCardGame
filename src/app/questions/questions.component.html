@@ -1,5 +1,5 @@
 <footer class="navbar-fixed-bottom">
-  <div class="container text-center">
+  <div class="text-center">
     <div class="row" style="
           padding-bottom: 10px;
           padding-top: 10px;
@@ -11,7 +11,7 @@
       <option *ngFor='let cardOrSum of cardsOrSumDropDown' value='{{cardOrSum.value}}' [attr.selectedShape]='cardOrSum.selectedShape'>{{cardOrSum.q}}</option>
   </select>
       <select #thirdQuestion>
-    <option  *ngFor='let areOrQues of areOrQuestion' value={{areOrQues.value}}>{{areOrQues.q}}</option>
+    <option  *ngFor='let areOrQues of areOrQuestion' value={{areOrQues.value}} hello="hello">{{areOrQues.q}}</option>
   </select>
       <select #forthQuestion>
     <option  *ngFor='let operat of operation' value='{{operat.value}}' >{{operat.q}}</option>
